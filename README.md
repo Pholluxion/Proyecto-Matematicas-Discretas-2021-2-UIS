@@ -11,4 +11,4 @@ Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetu
 3. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
 4. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
 
-[logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/banner.png
+[logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_banner.png
