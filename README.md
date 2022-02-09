@@ -1,14 +1,14 @@
 
 # ![logo][]
 
+El objetivo de este proyecto es implementar mediante sockets, una comunicación en tiempo real en la cual cada mensaje estará cifrado de extremo a extremo usando **Curve25519** 
 
-Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada.
+## Metodología 
 
-## Documentation
+1. Implementación del socket
+2. Implementación del algoritmo Curve25519
 
-1. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit.
-2. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-3. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-4. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+## Resultado esperado
 
 [logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_banner.png
+[curve25519]:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Montgomery_curve1.svg/300px-Montgomery_curve1.svg.png
