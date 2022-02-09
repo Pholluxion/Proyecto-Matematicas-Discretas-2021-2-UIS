@@ -13,7 +13,7 @@ El principal beneficio de utilizar este tipo de encriptación con curvas eliptic
 
 1. Implementación del socket:
     * Mediante la libreria **Flask** y **Socket.io** de Python se realizara el backend del proyecto 
-    * Se implementará una iterfaz grafica utilizando **HTML**, **CSS** y **JS**
+    * Se implementará un frontend utilizando **HTML**, **CSS** y **JS**
 3. Implementación del algoritmo **Curve25519**
 
     * TODO: 
