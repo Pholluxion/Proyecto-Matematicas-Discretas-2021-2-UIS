@@ -24,6 +24,8 @@ El principal beneficio de utilizar este tipo de encriptación con curvas eliptic
 
 1. Uno de los principales problemas de las comunicaciones son los ataques **Man in the middle** los cuales pueden ser muy peligrosos ya que pueden suplantar identidades en las comunicaciones y capturar información delicada, el objetivo de este proyecto es bridar un canal de comunicación seguro para organizaciones que necesiten de un canal de comunicación privada y seguro. 
 
+### ![man][]
+
 ## Resultado esperado
 
 1. Aplicativo Real-time de mensajeria implementado tanto en la web como en dispositivos moviles.
@@ -31,3 +33,4 @@ El principal beneficio de utilizar este tipo de encriptación con curvas eliptic
 
 [logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_banner.png
 [curve25519]:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Montgomery_curve1.svg/300px-Montgomery_curve1.svg.png
+[man]:https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/man_in_the_middle.png
