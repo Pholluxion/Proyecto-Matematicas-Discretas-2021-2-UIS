@@ -1,14 +1,36 @@
 
 # ![logo][]
 
+## Resumen
 
-Nulla porttitor accumsan tincidunt. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Donec rutrum congue leo eget malesuada. Quisque velit nisi, pretium ut lacinia in, elementum id enim. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec velit neque, auctor sit amet aliquam vel, ullamcorper sit amet ligula. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Donec rutrum congue leo eget malesuada.
+El objetivo de este proyecto es implementar mediante sockets, una comunicación en tiempo real en la cual cada mensaje estará cifrado de extremo a extremo usando **Curve25519**, esto con el fin de conseguir un canal seguro de comunicación interna. Muchas de estas implementaciones las encontramos en nuestro día a día como por ejemplo:  WhatsApp, Twitter y Facebook.
 
-## Documentation
+## Beneficios
 
-1. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Curabitur aliquet quam id dui posuere blandit.
-2. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-3. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi.
-4. Sed porttitor lectus nibh. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+El principal beneficio de utilizar este tipo de encriptación con curvas elipticas, es una mayor velocidad y disminución del peso de los mensajes encriptados a coparación de utilizar encriptación basada en modulos como por ejemplo el **Cifrado César**.
+
+## Metodología 
+
+1. Implementación del socket:
+    * Mediante la libreria **Flask** y **Socket.io** de Python se realizara el backend del proyecto 
+    * Se implementará un frontend utilizando **HTML**, **CSS** y **JS**
+3. Implementación del algoritmo **Curve25519**
+
+    * TODO: 
+5. Implementación de un aplicativo movil
+    * TODO:
+
+## Casos de uso
+
+1. Uno de los principales problemas de las comunicaciones son los ataques **Man in the middle** los cuales pueden ser muy peligrosos ya que pueden suplantar identidades en las comunicaciones y capturar información delicada, el objetivo de este proyecto es bridar un canal de comunicación seguro para organizaciones que necesiten de un canal de comunicación privada y seguro. 
+
+### ![man][]
+
+## Resultado esperado
+
+1. Aplicativo Real-time de mensajeria implementado tanto en la web como en dispositivos moviles.
+2. Un canal de comunicaciones seguro para organizaciones privadas. 
 
 [logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_banner.png
+[curve25519]:https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Montgomery_curve1.svg/300px-Montgomery_curve1.svg.png
+[man]:https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/man_in_the_middle.png
