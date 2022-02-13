@@ -41,13 +41,13 @@ body {
 }
 
 .form-signin input[type="email"] {
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
-  margin-bottom: 20px;
+  margin-bottom: -1px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 
 .form-signin input[type="password"] {
-  margin-bottom: 20px;
-  border-top-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  margin-bottom: 10px;
+  border-top-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
