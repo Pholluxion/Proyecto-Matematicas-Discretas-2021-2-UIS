@@ -5,6 +5,7 @@ body {
 
 body {
   display: -ms-flexbox;
+  align-items: center;
   display: flex;
   -ms-flex-align: center;
   align-items: center;
@@ -50,7 +51,11 @@ body {
   width: 50%;
 }
 
+.messageInput{
+align-items: center;
+}
+
 h2{
-  text-align: center;
+  text-align: start;
   font-family: 'Roboto', sans-serif;
 }
