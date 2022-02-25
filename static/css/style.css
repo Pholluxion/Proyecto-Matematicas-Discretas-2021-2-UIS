@@ -27,16 +27,11 @@
   padding: 30px;
   display: grid; 
 }
+ 
 
-
-
-.messageInput{
-align-items: center;
-}
-
-h2{
-  text-align: start;
-  font-family: 'Roboto', sans-serif;
+body{
+  margin: 0;
+  background-color: white;
 }
 
 .form-box input{
