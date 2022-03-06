@@ -12,16 +12,15 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-  <link href='{{ url_for("static", filename="css/signin.css") }}' rel="stylesheet" />
 </head>
 
 <body class="text-center">
-  <main class="form-signin">
+  <main class="form-signin" style="margin-top: 5%;">
     <form class="form-signin" action="{{url_for('chat')}}" method="POST">
-      <img src='{{ url_for("static", filename="img/logo.svg") }}' width="50%" height="10%" />
+      <img src='{{ url_for("static", filename="img/logo.svg") }}' width="10%" height="10%" />
+      <div style="margin-left: 40%; margin-right: 40%;">
       <h1 class="h5 mb-4 mt-4 fw-normal">Inicio de sesión</h1>
 
-      <div>
         <form class="form-signin" action="{{url_for('chat')}}" method="POST">
           <input type="text" id="username" name="username" class="form-control" placeholder="Nombre" required
             autofocus /><br />
