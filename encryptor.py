@@ -7,6 +7,7 @@ from cryptography.hazmat.backends import default_backend
 
 class Encryptor:
 
+    username = None
     private_key = None
     public_key  = None
 

@@ -96,7 +96,7 @@
 
     <div class="container mt-4 mb-4">
       <div class="row" style="background-color: skyblue">
-        <div class="col-12" style="margin: auto;">
+        <div class="col-12" style="margin: auto">
           <div
             class="navbar"
             style="
@@ -109,7 +109,7 @@
           >
             <div id="barra">
               Chat by Daniel Peñaloza
-              
+
               <br />
               <br />
               <h5 style="font-family: monospace; color: aliceblue">
@@ -119,6 +119,7 @@
                 {{session.get("username")}}
               </h2>
             </div>
+
             <div class="btn-group pull-right">
               <button
                 type="button"
@@ -132,23 +133,45 @@
         </div>
         <div class="col-4" style="background-color: skyblue">
           <textarea
-          id="key"
-          placeholder="LLave privada"
-          readonly
-          style="
-            width: 100%;
-            border: 0ch;
-            margin: 5px;
-            height: 95%;
-            font-size: medium;
-            font-family: monospace;
-            font-style: oblique;
-            overflow-x: hidden;
-            border-radius: 20px;
-            padding: 10px;
-            color: red;
-          "
-        > {{session.get("private_key")}}</textarea>
+            id="key"
+            placeholder="LLave privada"
+            readonly
+            style="
+              width: 100%;
+              border: 0ch;
+              margin: 5px;
+              height: 60%;
+              font-size: medium;
+              font-family: monospace;
+              font-style: oblique;
+              overflow-x: hidden;
+              border-radius: 20px;
+              padding: 10px;
+              color: red;
+            "
+          >
+ {{session.get("private_key")}}</textarea
+          >
+          <textarea
+            id="key_public"
+            placeholder="LLave privada"
+            readonly
+            style="
+              width: 100%;
+              border: 0ch;
+              margin: 5px;
+              height: 35%;
+              font-size: medium;
+              font-family: monospace;
+              font-style: oblique;
+              overflow-x: hidden;
+              border-radius: 20px;
+              padding: 10px;
+              color: green;
+            "
+          >
+{{session.get("public_key")}}</textarea
+          >
         </div>
         <div
           class="col-6"
@@ -223,7 +246,7 @@
                 width: 100%;
                 border: 0ch;
                 height: 95%;
-                font-size:small;
+                font-size: small;
                 font-style: italic;
                 font-family: monospace;
                 font-weight: bolder;
@@ -235,12 +258,7 @@
             ></textarea>
           </div>
         </div>
- 
       </div>
-    </div>
-
-    <div>
-      {{session.get("public_key")}}
     </div>
 
     <script>
