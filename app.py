@@ -1,6 +1,8 @@
 from flask import Flask, render_template, request, redirect, url_for, session
 from flask_socketio import SocketIO, join_room, leave_room, emit
 from flask_session import Session
+import encryptor 
+
 
 app = Flask(__name__)
 app.debug = True
@@ -27,6 +29,8 @@ def chat():
 
         session["username"] = username
         session["room"] = room
+        session["private_key"] = encryptor.genPrivateKey()
+        session["public_key"] = encryptor.genPublicKey()
 
         return render_template("chat.html", session=session)
     else:
