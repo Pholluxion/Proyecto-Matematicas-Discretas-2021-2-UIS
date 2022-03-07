@@ -13,6 +13,9 @@
       crossorigin="anonymous"
     />
 
+    <link rel="stylesheet" href="/path/to/bootstrap-toaster.css" />
+    <script src="/path/to/bootstrap-toaster.min.js"></script>
+
     <link rel="icon" href='{{ url_for("static", filename="img/logo.svg") }}' />
 
     <style>
@@ -65,7 +68,7 @@
   </head>
 
   <body style="background-color: azure">
-    <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 11">
+    <div class="position-fixed bottom-5 end-5" style="z-index: 11">
       <div
         id="liveToast"
         class="toast"
@@ -75,14 +78,13 @@
         style="
           top: 87%;
           left: 50%;
-          position: fixed;
-          transform: translate(-50%, 0px);
+          position: relative;
+          transform: translate(-40%,60%);
           z-index: 9999;
         "
       >
         <div class="toast-header">
-          <strong class="me-auto">Bootstrap</strong>
-          <small>11 mins ago</small>
+          <strong class="me-auto">Mensaje encriptado</strong>
           <button
             type="button"
             class="btn-close"
@@ -90,7 +92,7 @@
             aria-label="Close"
           ></button>
         </div>
-        <div class="toast-body">Hello, world! This is a toast message.</div>
+        <div class="toast-body" id="toast-cont"></div>
       </div>
     </div>
 
@@ -282,6 +284,7 @@
       var socket;
 
       $(document).ready(function () {
+
         $("#btn").click(function (e) {
           $(".toast").toast("show");
         });
@@ -301,6 +304,10 @@
         socket.on("message", function (data) {
           $("#chat").val($("#chat").val() + data.msg + "\n");
           $("#chat").scrollTop($("#chat")[0].scrollHeight);
+        });
+        socket.on("messageE", function (data) {
+          $("#toast-cont").text(data.msg);
+          
         });
 
         $("#send").click(function (e) {
@@ -327,6 +334,7 @@
         if (event.key === "Enter") {
           text = $("#text").val();
           $("#text").val("");
+          $(".toast").toast("show");
           socket.emit("text", { msg: text });
         }
       }

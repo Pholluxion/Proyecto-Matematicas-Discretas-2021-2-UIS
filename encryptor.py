@@ -18,7 +18,7 @@ class Encryptor:
                 key_size=2048,
                 backend=default_backend()
             )
-
+        print(self.private_key)
         self.public_key  = self.private_key.public_key()
 
 
@@ -39,9 +39,9 @@ class Encryptor:
         )
         return pem
 
-    def encryptMessage(self,message,public_key):
+    def encryptMessage(self,message):
         
-        encrypted = public_key.encrypt(
+        encrypted = self.public_key.encrypt(
                 message.encode('UTF-8'),
                 padding.OAEP(
                     mgf=padding.MGF1(algorithm=hashes.SHA256()),
@@ -62,4 +62,5 @@ class Encryptor:
             )
         )
         return original_message
+        
 
