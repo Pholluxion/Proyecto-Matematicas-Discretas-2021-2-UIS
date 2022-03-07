@@ -8,6 +8,6 @@ Para solucionar este problema se implementara mediante sockets, una comunicació
 
 ## Objetivo del proyecto
 
-Implementación de un canal de comunicación seguro cifrado de extremo a extremo utilizando criptografía con curvas elípticas. 
+Implementación de un canal de comunicación seguro cifrado de extremo a extremo utilizando criptografía asimetrica y el algoritmo RSA.
 
 [logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_banner.png
