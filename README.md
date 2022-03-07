@@ -10,4 +10,8 @@ Para solucionar este problema se implementara mediante sockets, una comunicació
 
 Implementación de un canal de comunicación seguro cifrado de extremo a extremo utilizando criptografía asimetrica y el algoritmo RSA.
 
+##  Video-resumen del proyecto
+
+[Ver en YouTube](https://youtu.be/KznU1BVes9g)
+
 [logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_banner.png
