@@ -17,12 +17,16 @@ Implementación de un canal de comunicación seguro cifrado de extremo a extremo
 
 ##  Presentación del proyecto
 
-[Ver Presentación](https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/diapositivas/Chat%20en%20tiempo%20real%20cifrado%20de%20extremo%20a%20extremo.pdf)
+[Ver Presentación](https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/diapositivas/Chat%20en%20tiempo%20real%20cifrado%20de%20extremo%20a%20extremo%20v2.pdf)
 
-[logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_new_banner.png
+## Guia
+
+[Guia de uso](https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/diapositivas/Guia%20de%20uso.pdf)
 
 ##  Referencias
 
 RSA — cryptography 37.0.0.Dev1 documentation. (s/f). Cryptography.Io. Recuperado el 7 de marzo de 2022, de https://cryptography.io/en/latest/hazmat/primitives/asymmetric/rsa/
 
 Vollebregt, B. (s/f). Asymmetric encryption and decryption in Python. Nitratine.Net. Recuperado el 7 de marzo de 2022, de https://nitratine.net/blog/post/asymmetric-encryption-and-decryption-in-python/
+
+[logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_new_banner.png
