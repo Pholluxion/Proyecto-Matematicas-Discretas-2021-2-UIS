@@ -14,4 +14,9 @@ Implementación de un canal de comunicación seguro cifrado de extremo a extremo
 
 [Ver en YouTube](https://youtu.be/KznU1BVes9g)
 
+
+##  Presentación del proyecto
+
+[Presentación](https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/diapositivas/Chat%20en%20tiempo%20real%20cifrado%20de%20extremo%20a%20extremo.pdf)
+
 [logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_new_banner.png
