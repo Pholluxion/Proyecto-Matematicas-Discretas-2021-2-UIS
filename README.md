@@ -1,14 +1,28 @@
 
 # ![logo][]
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1VGYDxumPWhJehM4PupyyUnzDnkFFUeNd#scrollTo=d3TR083TrrxI)
+
+
 ## Resumen
 
-Uno de los principales problemas de las comunicaciones son los ataques **Man in the middle** los cuales pueden ser muy peligrosos ya que pueden suplantar identidades en las comunicaciones y capturar información delicada, el objetivo de este proyecto es bridar un canal de comunicación seguro para organizaciones que necesiten de un canal de comunicación privada y seguro.
-Para solucionar este problema se implementara mediante sockets, una comunicación en tiempo real en la cual cada mensaje estará cifrado de extremo a extremo usando el algotimo asimetrico **RSA**, pues es el primer y más utilizado algoritmo de este tipo y es válido tanto para cifrar como para firmar digitalmente, es mas rapido y disminuye notablemente el peso de los mensajes encriptados a coparación de utilizar encriptación basada en matematica modular como por ejemplo el **Cifrado César**. Esto con el fin de conseguir un canal seguro de comunicación interna. Muchas de estas implementaciones las encontramos en nuestro día a día como por ejemplo:  **WhatsApp**, **Twitter** y **Facebook**
+Uno de los principales problemas de las comunicaciones son los ataques Man in the middle los cuales pueden ser muy peligrosos ya que mediante estos se pueden suplantar identidades o capturar información delicada.
+
+El objetivo de este proyecto es bridar un sistema de comunicación seguro para organizaciones que lo requieran debido a la delicadeza de la información.
+
+Para solucionar este problema se implementara mediante sockets, una comunicación en tiempo real en la cual cada mensaje estará cifrado de extremo a extremo usando el algotimo asimetrico Rivest, Shamir y Adleman (RSA), pues es el primer y más utilizado algoritmo de este tipo y es válido tanto para cifrar como para firmar digitalmente y para encriptar y desencriptar los mensaje se utilizó el algortimos SHA-256.
+Para le representación de datos se utilizaron herraminetas web tales como:
+
+* Flask
+* HTML5
+* CSS
+* Bootstrap
+
+Muchas de estas implementaciones las encontramos en nuestro día a día como por ejemplo: WhatsApp y Facebook
 
 ## Objetivo del proyecto
 
-Implementación de un canal de comunicación seguro cifrado de extremo a extremo utilizando criptografía asimetrica y el algoritmo RSA.
+Este proyecto tiene como objetivo la implementación de un sistema de comunicación seguro cifrado de extremo a extremo utilizando criptografía asimetrica con el algoritmo Rivest, Shamir y Adleman (RSA) y SHA-256.
 
 ##  Video-resumen del proyecto
 
@@ -29,4 +43,10 @@ RSA — cryptography 37.0.0.Dev1 documentation. (s/f). Cryptography.Io. Recupera
 
 Vollebregt, B. (s/f). Asymmetric encryption and decryption in Python. Nitratine.Net. Recuperado el 7 de marzo de 2022, de https://nitratine.net/blog/post/asymmetric-encryption-and-decryption-in-python/
 
+Wikipedia contributors. (s/f). RSA. Wikipedia, The Free Encyclopedia. https://es.wikipedia.org/w/index.php?title=RSA&oldid=139140925
+
+Wikipedia contributors. (s/f-a). Esquema de relleno. Wikipedia, The Free Encyclopedia. https://es.wikipedia.org/w/index.php?title=Esquema_de_relleno&oldid=133247425
+
 [logo]: https://github.com/Pholluxion/Proyecto-Matematicas-Discretas-2021-2-UIS/blob/main/assets/new_new_banner.png
+
+
