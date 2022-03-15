@@ -6,23 +6,28 @@
 
 ## Resumen
 
-Uno de los principales problemas de las comunicaciones son los ataques Man in the middle los cuales pueden ser muy peligrosos ya que mediante estos se pueden suplantar identidades o capturar información delicada.
+Uno de los principales problemas de las comunicaciones son los ataques ***Man in the middle*** los cuales pueden ser muy peligrosos ya que mediante estos se pueden suplantar identidades o capturar información delicada.
 
-El objetivo de este proyecto es bridar un sistema de comunicación seguro para organizaciones que lo requieran debido a la delicadeza de la información.
+El objetivo de este proyecto es bridar un **sistema de comunicación seguro** para organizaciones que lo requieran debido a la delicadeza de la información.
 
-Para solucionar este problema se implementara mediante sockets, una comunicación en tiempo real en la cual cada mensaje estará cifrado de extremo a extremo usando el algotimo asimetrico Rivest, Shamir y Adleman (RSA), pues es el primer y más utilizado algoritmo de este tipo y es válido tanto para cifrar como para firmar digitalmente y para encriptar y desencriptar los mensaje se utilizó el algortimos SHA-256.
+Para solucionar este problema se implementara mediante ***sockets***, una comunicación en tiempo real en la cual cada mensaje estará cifrado de extremo a extremo usando el algotimo asimetrico ***Rivest, Shamir y Adleman (RSA)***, pues es el primer y más utilizado algoritmo de este tipo y es válido tanto para cifrar como para firmar digitalmente. 
+
+Para encriptar y desencriptar los mensaje se utilizó el algortimos **SHA-256**
+
 Para le representación de datos se utilizaron herraminetas web tales como:
 
-* Flask
-* HTML5
-* CSS
-* Bootstrap
+    * Flask
+    * HTML5
+    * CSS
+    * Bootstrap
+    * JQuery
+    * AJAX
 
-Muchas de estas implementaciones las encontramos en nuestro día a día como por ejemplo: WhatsApp y Facebook
+Muchas de estas implementaciones las encontramos en nuestro día a día como por ejemplo: **WhatsApp** y **Facebook**
 
 ## Objetivo del proyecto
 
-Este proyecto tiene como objetivo la implementación de un sistema de comunicación seguro cifrado de extremo a extremo utilizando criptografía asimetrica con el algoritmo Rivest, Shamir y Adleman (RSA) y SHA-256.
+Implementación de un **sistema de comunicación seguro** cifrado de extremo a extremo utilizando **criptografía asimetrica** con el algoritmo **Rivest, Shamir y Adleman (RSA)** y **SHA-256**.
 
 ##  Video-resumen del proyecto
 
